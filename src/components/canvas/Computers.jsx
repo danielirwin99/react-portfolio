@@ -4,7 +4,6 @@ import { extend } from "@react-three/fiber";
 import { Canvas } from "@react-three/fiber";
 
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-extend({ OrbitControls, Preload, useGLTF });
 
 import CanvasLoader from "../Loader";
 
@@ -58,7 +57,7 @@ const ComputersCanvas = () => {
   }, []);
   return (
     <Canvas
-      frameloop="demand"
+      frameLoop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}

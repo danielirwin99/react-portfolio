@@ -29,8 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aspnet from "./tech/ASPNET.png";
+import mysql from "./tech/mysql.png";
+import angular from "./tech/angular.png";
 
 export {
+  angular,
   logo,
   backend,
   creator,
@@ -59,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  aspnet,
+  mysql,
 };

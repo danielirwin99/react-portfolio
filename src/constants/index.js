@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  aspnet,
+  mysql,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +34,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -105,12 +108,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "mysql",
+    icon: mysql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "aspnet",
+    icon: aspnet,
+  },
+  {
+    name: "angular",
+    icon: angular,
   },
 ];
 
