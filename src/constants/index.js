@@ -205,9 +205,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Jobify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A fullstack web application that incorporates the MERN stack. With a powerful back end and a dynamic front end using the latest React interface, my application delivers a seamless user experience, efficient data management, and smooth communication between the client and server.",
     tags: [
       {
         name: "react",
@@ -218,12 +218,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/danielirwin99/jobify-mern",
   },
   {
     name: "Job IT",
