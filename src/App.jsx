@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,14 +22,15 @@ function App() {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </Router>
   );
