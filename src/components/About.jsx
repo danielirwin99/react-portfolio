@@ -43,6 +43,17 @@ const About = () => {
         experience. Throughout my studies, I've gained a solid foundation in
         Frontend languages including React, Next.js and Vanilla Javascript.
       </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        Throughout my studies, I've gained a solid foundation in languages
+        including{" "}
+        <span className="underline">
+          React, Node.js, SQL <span className="no-underline">and</span> C#
+        </span>
+        .
+      </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

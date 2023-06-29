@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import link from "./link.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,13 +33,22 @@ import tripguide from "./tripguide.png";
 import aspnet from "./tech/ASPNET.png";
 import mysql from "./tech/mysql.png";
 import angular from "./tech/angular.png";
+import jobify from "./jobify.jpg";
+import dashboard from "./dashboard.jpg";
+import nft from "./nft.jpg";
+import bookhaven from "./bookhaven.jpg"
 
 export {
   angular,
+  dashboard,
+  bookhaven,
+  nft,
   logo,
+  link,
   backend,
   creator,
   mobile,
+  jobify,
   web,
   github,
   menu,

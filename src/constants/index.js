@@ -13,8 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  jobify,
   meta,
   starbucks,
   tesla,
@@ -26,6 +25,9 @@ import {
   aspnet,
   mysql,
   angular,
+  dashboard,
+  nft,
+  bookhaven,
 } from "../assets";
 
 export const navLinks = [
@@ -45,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Dev",
     icon: web,
   },
   {
-    title: "UI Developer",
+    title: "UI",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend",
     icon: backend,
   },
   {
-    title: "FullStack Developer",
+    title: "FullStack",
     icon: creator,
   },
 ];
@@ -222,50 +224,112 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/danielirwin99/jobify-mern",
+    image: jobify,
+    source_code_git: "https://github.com/danielirwin99/jobify-mern",
+    source_code_link: "https://jobify-mern-p8q4.onrender.com/landing",
   },
   {
-    name: "Job IT",
+    name: "SaleTrackr",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " A modern web application built with Next.js and TailwindCSS that includes a local mock API as well as responsiveness for mobile device.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwincss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_git: "https://github.com/danielirwin99/dashboard-project",
+    source_code_link: "https://dashboard-project-wine.vercel.app/",
+  },
+  {
+    name: "Ultraverse",
+    description:
+      "A user friendly NFT marketplace that incorporates processed API requests with Axios represented it through skeleton loading states, pagination and dynamic routing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "git-control",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: nft,
+    source_code_git: "https://github.com/danielirwin99/daniel-internship",
+    source_code_link: "https://daniel-internship.vercel.app/",
+  },
+  {
+    name: "BookHaven",
+    description:
+      " Built with React framework, BookHaven is a web application that allows users to browse and purchase books from a virtual library.",
+    subDescription:
+      "The app utilizes the React JavaScript library to create a smooth and interactive user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "git-control",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: bookhaven,
+    source_code_git: "https://github.com/danielirwin99/React-Libarary-Project",
+    source_code_link: "https://react-libarary-project.vercel.app/",
+  },
+  {
+    name: "CryptoVault",
+    description:
+      "CryptoVault features the top 50 cryptocurrencies and ensures that the displayed up-to-date data is well-structured and constantly refreshed in real time. ",
+
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: nft,
+    source_code_git: "https://github.com/danielirwin99/crypto-database",
+    source_code_link: "https://crypto-database.vercel.app/",
   },
 ];
 
