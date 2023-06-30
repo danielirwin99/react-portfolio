@@ -39,7 +39,7 @@ const Footer = () => {
               Contact
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className={styles.footerLink}
               href="/assets/resume.pdf"
@@ -47,7 +47,7 @@ const Footer = () => {
             >
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
         <p className="mt-10 font-bold text-white-100">
           Copyright © 2023 Daniel Irwin{" "}
