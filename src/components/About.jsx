@@ -40,8 +40,7 @@ const About = () => {
       >
         I'm a 24 year-old Australian full stack developer eager to apply my
         newly acquired skills to real-world projects and gain practical
-        experience. Throughout my studies, I've gained a solid foundation in
-        Frontend languages including React, Next.js and Vanilla Javascript.
+        experience.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
