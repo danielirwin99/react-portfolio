@@ -28,6 +28,7 @@ import {
   dashboard,
   nft,
   bookhaven,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -229,6 +230,34 @@ const projects = [
     source_code_link: "https://jobify-mern-p8q4.onrender.com/landing",
   },
   {
+    name: "Twitter 2.0",
+    description:
+      " A Twitter clone that incorporates Redux for the user state management and Firebase is a social networking platform built with the React framework",
+    subDescription: "This project simulates the dark mode user interface",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: twitter,
+    source_code_git: "https://github.com/danielirwin99/twitter-clone",
+    source_code_link:
+      "https://twitter-clone-aqftg39x5-danielirwin99.vercel.app/",
+  },
+  {
     name: "SaleTrackr",
     description:
       " A modern web application built with Next.js and TailwindCSS that includes a local mock API as well as responsiveness for mobile device.",
@@ -238,7 +267,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwincss",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {

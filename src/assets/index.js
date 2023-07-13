@@ -37,9 +37,11 @@ import jobify from "./jobify.jpg";
 import dashboard from "./dashboard.jpg";
 import nft from "./nft.jpg";
 import bookhaven from "./bookhaven.jpg"
+import twitter from "./twitter.jpg"
 
 export {
   angular,
+  twitter,
   dashboard,
   bookhaven,
   nft,
