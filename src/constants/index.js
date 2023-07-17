@@ -29,6 +29,7 @@ import {
   nft,
   bookhaven,
   twitter,
+  bitcoin,
 } from "../assets";
 
 export const navLinks = [
@@ -356,7 +357,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: nft,
+    image: bitcoin,
     source_code_git: "https://github.com/danielirwin99/crypto-database",
     source_code_link: "https://crypto-database.vercel.app/",
   },
