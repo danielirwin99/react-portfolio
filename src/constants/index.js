@@ -211,7 +211,7 @@ const projects = [
   {
     name: "Jobify",
     description:
-      "A fullstack web application that incorporates the MERN stack. With a powerful back end and a dynamic front end using the latest React interface, my application delivers a seamless user experience, efficient data management, and smooth communication between the client and server.",
+      "A fullstack web application that aims to simulate managing job applications with fully functional CRUD operations",
     tags: [
       {
         name: "react",
@@ -223,6 +223,10 @@ const projects = [
       },
       {
         name: "nodejs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
@@ -231,10 +235,38 @@ const projects = [
     source_code_link: "https://jobify-mern-p8q4.onrender.com/landing",
   },
   {
+    name: "CryptoVault",
+    description:
+      "CryptoVault features the top 50 cryptocurrencies and ensures that the displayed up-to-date data is well-structured and constantly refreshed in real time using REST API's. ",
+
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: bitcoin,
+    source_code_git: "https://github.com/danielirwin99/crypto-database",
+    source_code_link: "https://crypto-database.vercel.app/",
+  },
+  {
     name: "Twitter 2.0",
     description:
-      " A Twitter clone that incorporates Redux for the user state management and Firebase is a social networking platform built with the React framework",
-    subDescription: "This project simulates the dark mode user interface",
+      " A social media app that simulates the dark mode user interface of the popular website Twitter.",
+    subDescription:
+      "Built with with latest technology including Next.js with a fully responsive design",
     tags: [
       {
         name: "react",
@@ -261,7 +293,7 @@ const projects = [
   {
     name: "SaleTrackr",
     description:
-      " A modern web application built with Next.js and TailwindCSS that includes a local mock API as well as responsiveness for mobile device.",
+      " A convenient e-commerce app that simulates an online store dashboard with graphical models to display daily revenue",
     tags: [
       {
         name: "nextjs",
@@ -274,6 +306,10 @@ const projects = [
       {
         name: "material-ui",
         color: "pink-text-gradient",
+      },
+      {
+        name: "react-graphs",
+        color: "orange-text-gradient",
       },
     ],
     image: dashboard,
@@ -333,33 +369,6 @@ const projects = [
     image: bookhaven,
     source_code_git: "https://github.com/danielirwin99/React-Libarary-Project",
     source_code_link: "https://react-libarary-project.vercel.app/",
-  },
-  {
-    name: "CryptoVault",
-    description:
-      "CryptoVault features the top 50 cryptocurrencies and ensures that the displayed up-to-date data is well-structured and constantly refreshed in real time. ",
-
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "rest-api",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: bitcoin,
-    source_code_git: "https://github.com/danielirwin99/crypto-database",
-    source_code_link: "https://crypto-database.vercel.app/",
   },
 ];
 
