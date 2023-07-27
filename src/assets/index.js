@@ -39,10 +39,12 @@ import nft from "./nft.jpg";
 import bookhaven from "./bookhaven.jpg"
 import twitter from "./twitter.jpg"
 import bitcoin from "./bitcoin.jpg"
+import godad from "./godad.jpg"
 
 export {
   angular,
   bitcoin,
+  godad,
   twitter,
   dashboard,
   bookhaven,

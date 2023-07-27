@@ -30,6 +30,7 @@ import {
   bookhaven,
   twitter,
   bitcoin,
+  godad,
 } from "../assets";
 
 export const navLinks = [
@@ -369,6 +370,34 @@ const projects = [
     image: bookhaven,
     source_code_git: "https://github.com/danielirwin99/React-Libarary-Project",
     source_code_link: "https://react-libarary-project.vercel.app/",
+  },
+  {
+    name: "GoDad",
+    description:
+      "Designed to replicate the popular website domain service 'GoDaddy' with a fully responsive design. ",
+    subDescription:
+      "This project focused on aesthetics of the landing page incorporating BEM best practices with material-ui styling touches added.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: godad,
+    source_code_git: "https://github.com/danielirwin99/go-dad",
+    source_code_link: "https://go-dad.vercel.app/",
   },
 ];
 

@@ -6,6 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { BiLink } from "react-icons/bi";
+import { useState } from "react";
 
 const ProjectCard = ({
   index,
@@ -92,6 +93,14 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {/* <div className="flex justify-center items-center mt-10">
+        <button
+          onClick={yessir}
+          className="bg-[#915eff] py-3 px-8 outline-none w-fit text-white font-bold shadow-lg shadow-primary rounded-xl"
+        >
+          Load More
+        </button>
+      </div> */}
     </>
   );
 };

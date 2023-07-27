@@ -11,7 +11,7 @@ const SectionWrapper = (Component, idName) =>
         whileInView={"show"}
         // Show it only once and animate it for .25 seconds
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} mx-auto max-w-7xl relative z-0`}
+        className={`${styles.padding} mx-auto max-w-[90rem] relative z-0`}
       >
         <span className="hash-span" id={idName}>
             &nbsp;
