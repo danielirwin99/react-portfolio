@@ -36,15 +36,17 @@ import angular from "./tech/angular.png";
 import jobify from "./jobify.jpg";
 import dashboard from "./dashboard.jpg";
 import nft from "./nft.jpg";
-import bookhaven from "./bookhaven.jpg"
-import twitter from "./twitter.jpg"
-import bitcoin from "./bitcoin.jpg"
-import godad from "./godad.jpg"
+import bookhaven from "./bookhaven.jpg";
+import twitter from "./twitter.jpg";
+import bitcoin from "./bitcoin.jpg";
+import godad from "./godad.jpg";
+import twofoureight from "./2048.jpg";
 
 export {
   angular,
   bitcoin,
   godad,
+  twofoureight,
   twitter,
   dashboard,
   bookhaven,

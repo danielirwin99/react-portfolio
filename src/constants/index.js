@@ -31,6 +31,7 @@ import {
   twitter,
   bitcoin,
   godad,
+  twofoureight,
 } from "../assets";
 
 export const navLinks = [
@@ -398,6 +399,30 @@ const projects = [
     image: godad,
     source_code_git: "https://github.com/danielirwin99/go-dad",
     source_code_link: "https://go-dad.vercel.app/",
+  },
+  {
+    name: "2048",
+    description:
+      "A small mini game project that was created to reproduce the popular '2048' application.",
+    subDescription:
+      "Built using only vanilla js, html and css this simple but addicting game will keep you chasing that glorious 2048 victory.",
+    tags: [
+      {
+        name: "html5",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: twofoureight,
+    source_code_git: "https://github.com/danielirwin99/2048",
+    source_code_link: "https://2048-lake.vercel.app/",
   },
 ];
 
