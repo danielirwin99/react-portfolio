@@ -236,33 +236,33 @@ const projects = [
     source_code_git: "https://github.com/danielirwin99/jobify-mern",
     source_code_link: "https://jobify-mern-p8q4.onrender.com/landing",
   },
-  {
-    name: "CryptoVault",
-    description:
-      "CryptoVault features the top 50 cryptocurrencies and ensures that the displayed up-to-date data is well-structured and constantly refreshed in real time using REST API's. ",
+  // {
+  //   name: "CryptoVault",
+  //   description:
+  //     "CryptoVault features the top 50 cryptocurrencies and ensures that the displayed up-to-date data is well-structured and constantly refreshed in real time using REST API's. ",
 
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "rest-api",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: bitcoin,
-    source_code_git: "https://github.com/danielirwin99/crypto-database",
-    source_code_link: "https://crypto-database.vercel.app/",
-  },
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "rest-api",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: bitcoin,
+  //   source_code_git: "https://github.com/danielirwin99/crypto-database",
+  //   source_code_link: "https://crypto-database.vercel.app/",
+  // },
   {
     name: "2048",
     description:
