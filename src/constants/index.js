@@ -264,6 +264,34 @@ const projects = [
   //   source_code_link: "https://crypto-database.vercel.app/",
   // },
   {
+    name: "GoDad",
+    description:
+      "Designed to replicate the popular website domain service 'GoDaddy' with a fully responsive design. ",
+    subDescription:
+      "This project focused on aesthetics of the landing page incorporating BEM best practices with material-ui styling touches added.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: godad,
+    source_code_git: "https://github.com/danielirwin99/go-dad",
+    source_code_link: "https://go-dad.vercel.app/",
+  },
+  {
     name: "2048",
     description:
       "A small mini game project that was created to reproduce the popular '2048' application.",
@@ -286,6 +314,32 @@ const projects = [
     image: twofoureight,
     source_code_git: "https://github.com/danielirwin99/2048",
     source_code_link: "https://2048-lake.vercel.app/",
+  },
+  {
+    name: "Ultraverse",
+    description:
+      "A user friendly NFT marketplace that incorporates processed API requests with Axios represented it through skeleton loading states, pagination and dynamic routing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "git-control",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: nft,
+    source_code_git: "https://github.com/danielirwin99/daniel-internship",
+    source_code_link: "https://daniel-internship.vercel.app/",
   },
   {
     name: "Twitter 2.0",
@@ -342,32 +396,7 @@ const projects = [
     source_code_git: "https://github.com/danielirwin99/dashboard-project",
     source_code_link: "https://dashboard-project-wine.vercel.app/",
   },
-  {
-    name: "Ultraverse",
-    description:
-      "A user friendly NFT marketplace that incorporates processed API requests with Axios represented it through skeleton loading states, pagination and dynamic routing.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "git-control",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: nft,
-    source_code_git: "https://github.com/danielirwin99/daniel-internship",
-    source_code_link: "https://daniel-internship.vercel.app/",
-  },
+
   {
     name: "BookHaven",
     description:
@@ -395,34 +424,6 @@ const projects = [
     image: bookhaven,
     source_code_git: "https://github.com/danielirwin99/React-Libarary-Project",
     source_code_link: "https://react-libarary-project.vercel.app/",
-  },
-  {
-    name: "GoDad",
-    description:
-      "Designed to replicate the popular website domain service 'GoDaddy' with a fully responsive design. ",
-    subDescription:
-      "This project focused on aesthetics of the landing page incorporating BEM best practices with material-ui styling touches added.",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html5",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: godad,
-    source_code_git: "https://github.com/danielirwin99/go-dad",
-    source_code_link: "https://go-dad.vercel.app/",
   },
 ];
 
